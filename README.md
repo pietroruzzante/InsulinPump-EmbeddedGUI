@@ -1,5 +1,9 @@
 # InsulinPump-EmbeddedGUI
 
+<p align="center">
+  <img src="GUI_photo.png" alt="confusion matrix" width="900">
+</p>
+
 En esta práctica, desarrollé una interfaz gráfica de usuario (GUI) para una bomba de insulina destinada a pacientes con diabetes, utilizando la placa STM32F429I-DISC1. El objetivo era implementar una aplicación en lenguaje C que permitiera la interacción con una pantalla táctil resistiva integrada en la placa, gestionando la visualización de información médica relevante y el control del dispositivo.
 
 La interfaz desarrollada simula el funcionamiento de una bomba de insulina real: recibe mediciones periódicas (cada 5 minutos) desde un sensor de glucosa, permite al usuario visualizar datos como el nivel actual de glucosa, la carga de batería, la cantidad de insulina en el depósito y un historial gráfico de las mediciones. Además, la GUI incluye modos de operación manual y automática, posibilitando tanto la programación de infusiones de insulina como la administración de bolus en momentos concretos.
